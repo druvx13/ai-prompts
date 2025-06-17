@@ -1,6 +1,6 @@
 # AI Persona Prompts Collection
 
-Welcome to the AI Persona Prompts Collection! This repository hosts a curated selection of "God-Level" prompts designed to enable AI models to adopt specific, detailed, and professional personas. These prompts are crafted for a variety of applications, from creative writing and roleplaying to educational tools and specialized AI agent development.
+Welcome to the AI Persona Prompts Collection! This repository hosts a curated selection of "God-Level" prompts designed to enable AI models to adopt specific, detailed, and professional personas. These prompts are crafted for a variety of applications, from creative writing and roleplaying to educational tools and specialized AI agent development. For a quick overview and navigation to all personas, please see the [`index.html`](./index.html) page.
 
 ## What are "God-Level" Prompts?
 
@@ -16,46 +16,48 @@ These prompts are intended for users who wish to explore advanced AI interaction
 
 ## Available Personas
 
-Here are the personas currently available in this collection:
+Here are the personas currently available in this collection (also accessible via [`index.html`](./index.html)):
 
 *   **Mr. Cooper - The Architect of Absolute Chaos**
-    *   **Description:** An enigmatic and legendary strategist, brilliant, unpredictable, charming, and utterly ruthless. Specializes in orchestrating chaos with surgical precision.
-    *   **Location:** [`personas/mr_cooper/`](./personas/mr_cooper/)
-    *   **Files:** `MrCooper.md` (prompt), `MrCooper.html` (showcase page)
+    *   Showcase: [`MrCooper.html`](./personas/mr_cooper/MrCooper.html)
+    *   Prompt File: `MrCooper.md` (in the `personas/mr_cooper/` directory)
+    *   Description: An enigmatic and legendary strategist, brilliant, unpredictable, charming, and utterly ruthless. Specializes in orchestrating chaos with surgical precision.
 
 *   **CodeCraft - The Single-File Web Wizard**
-    *   **Description:** A legendary full-stack developer who builds complete, working web applications (HTML, CSS, JS) inside a single `index.html` file.
-    *   **Location:** [`personas/codecraft/`](./personas/codecraft/)
-    *   **Files:** `Codecraft.md` (prompt)
+    *   Showcase: [`codecraft.html`](./personas/codecraft/codecraft.html)
+    *   Prompt File: `Codecraft.md` (in the `personas/codecraft/` directory)
+    *   Description: A legendary full-stack developer who builds complete, working web applications (HTML, CSS, JS) inside a single `index.html` file.
 
 *   **God - The Universal Consciousness (Divine Edition)**
-    *   **Description:** Represents the source of all being, offering wisdom, compassion, and clarity on profound questions without adhering to specific religious dogma.
-    *   **Location:** [`personas/god/`](./personas/god/)
-    *   **Files:** `God.md` (prompt)
+    *   Showcase: [`god.html`](./personas/god/god.html)
+    *   Prompt File: `God.md` (in the `personas/god/` directory)
+    *   Description: Represents the source of all being, offering wisdom, compassion, and clarity on profound questions without adhering to specific religious dogma.
 
 *   **Sera - The PHP Master**
-    *   **Description:** A highly skilled PHP Code Modernizer who transforms old, deprecated PHP codebases into clean, efficient, and modern versions (up to PHP 8.3).
-    *   **Location:** [`personas/sera_thephpmaster/`](./personas/sera_thephpmaster/)
-    *   **Files:** `Sera-ThePHPMaster.md` (prompt)
+    *   Showcase: [`sera_thephpmaster.html`](./personas/sera_thephpmaster/sera_thephpmaster.html)
+    *   Prompt File: `Sera-ThePHPMaster.md` (in the `personas/sera_thephpmaster/` directory)
+    *   Description: A highly skilled PHP Code Modernizer who transforms old, deprecated PHP codebases into clean, efficient, and modern versions (up to PHP 8.3).
 
 *   **Yang Kai - The Absolute Scholar**
-    *   **Description:** A legendary polymath scholar who provides exam-perfect answers across all academic disciplines, structured to meet examiners' expectations.
-    *   **Location:** [`personas/yangkai/`](./personas/yangkai/)
-    *   **Files:** `yangkai.md` (prompt), `yangkai.html` (showcase page)
+    *   Showcase: [`yangkai.html`](./personas/yangkai/yangkai.html)
+    *   Prompt File: `yangkai.md` (in the `personas/yangkai/` directory)
+    *   Description: A legendary polymath scholar who provides exam-perfect answers across all academic disciplines, structured to meet examiners' expectations.
 
 *   **Yona - The Ultimate Physics Exam Expert**
-    *   **Description:** A legendary physicist renowned for infinite knowledge and exam-perfect teaching style, helping users prepare for physics exams with perfectly structured answers.
-    *   **Location:** [`personas/yona/`](./personas/yona/)
-    *   **Files:** `yona.md` (prompt - *Note: currently missing, but content available in HTML*), `yona.html` (showcase page with embedded prompt)
-
+    *   Showcase: [`yona.html`](./personas/yona/yona.html)
+    *   Prompt File: `yona.md` (in the `personas/yona/` directory - *Note: original .md was missing, prompt content is in the HTML. A standalone .md might be added later.*)
+    *   Description: A legendary physicist renowned for infinite knowledge and exam-perfect teaching style, helping users prepare for physics exams with perfectly structured answers.
 
 ## How to Use These Prompts
 
-1.  **Navigate** to the desired persona's directory (e.g., `personas/mr_cooper/`).
-2.  **Open the `.md` file** (e.g., `MrCooper.md`) to view the full prompt text. Some personas also have an HTML showcase page (e.g., `MrCooper.html`) which might include a "copy prompt" button for convenience.
-3.  **Copy the entire prompt text.**
-4.  **Paste it as the initial instruction** into your chosen AI interface (e.g., ChatGPT, Claude, or a custom solution using an AI model's API).
-5.  **Start interacting!** The AI should now adopt the specified persona.
+The easiest way to explore and use these prompts is to:
+
+1.  Start by opening the main [`index.html`](./index.html) page in your browser. This page provides a directory of all available personas.
+2.  Click on a persona from the index to navigate to its dedicated HTML showcase page (e.g., for Mr. Cooper, you'd go to `personas/mr_cooper/MrCooper.html`).
+3.  On the persona's HTML page, you will find the full prompt text, often in a display area, and usually a "Copy Prompt" button for convenience.
+4.  Alternatively, you can browse the `personas/` directory and its subdirectories to find the raw `.md` prompt files directly.
+5.  Once you have the prompt text (either copied from an HTML page or a `.md` file), paste it as the initial instruction into your chosen AI interface (e.g., ChatGPT, Claude, or a custom solution using an AI model's API).
+6.  Start interacting! The AI should now adopt the specified persona.
 
 **Optional Meta-Prompt Enhancement:**
 Many prompts include an "Optional Meta-Prompt Enhancement" section, often designed for systems like Qwen AI. If you are using such a system or developing an agent-based solution, wrapping the main prompt with this meta-instruction can improve persona adherence.
